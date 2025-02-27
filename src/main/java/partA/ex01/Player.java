@@ -7,6 +7,11 @@ public class Player {
         /**
          * Your code goes here
          */
+        String variable, height, name, years;
+
+        height = "6'2";
+        variable = "welp";
+        System.out.println(height+ " \n"+  variable);
 
 
         return response;
