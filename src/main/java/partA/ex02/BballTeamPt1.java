@@ -3,7 +3,13 @@ package partA.ex02;
 public class BballTeamPt1 {
     public static String BballTeam() {
         String response = "";
-
+        
+        if("Stephen" == "Michael"){
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+        System.out.println();
         /**
          * Your code goes here
          */
