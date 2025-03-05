@@ -11,7 +11,7 @@ public class Player {
          * Your code goes here
          */
         Player playerOne = new Player();
-        playerOne.playerNum = "Player 1:";
+        playerOne.playerNum = "Player 1: ";
         playerOne.variable = "variable: Stephen Curry";
         playerOne.name = "Name: Stephen Curry";
         playerOne.height = "Height: 6'2";
@@ -19,14 +19,14 @@ public class Player {
 
         Player playerTwo = new Player();
         playerTwo.playerNum = "Player 2:";
-        playerTwo.variable = "variable: Michael Jordan";
+        playerTwo.variable = "variable: Michael Jordan ";
         playerTwo.name = "Name: Michael Jordan";
         playerTwo.height = "Height: 6'6";
         playerTwo.yearsInLeague = "Years in the League: 15 years";
 
          response = playerOne.playerNum + "\n" + playerOne.variable +"\n" +
                 playerOne.name +"\n" + playerOne.height +"\n" +
-                playerOne.yearsInLeague +"\n" + "\n"+ playerTwo.playerNum +"\n" +
+                playerOne.yearsInLeague +"\n\n" + playerTwo.playerNum +"\n" +
                 playerTwo.variable+"\n"+ playerTwo.name + "\n" + playerTwo.height +"\n" +
                 playerTwo.yearsInLeague;
 
