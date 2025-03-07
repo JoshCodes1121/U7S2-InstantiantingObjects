@@ -5,26 +5,49 @@ import partA.ex01.Player;
 public class BballTeamPt1 {
     public static String BballTeam() {
         String response = "";
-        Player  camel = new Player();
-        Player  cameltoe = new Player();
-        cameltoe.variable= "Flower glim and glow let your power shine" +
-                " make the clock reverise bring back what once was mine";
-        cameltoe.name = "heal what has been hurt, change the fate's design, save what has been lost";
-        cameltoe.yearsInLeague = "bring back what once was mine, what onceee wasssss mineeee";
-
-        if( camel== cameltoe){
-            System.out.println("true");
-        } else {
-            System.out.println("false");
-        }
-        System.out.println(cameltoe);
         /**
          * Your code goes here
          */
-        boolean equals = true;
-        System.out.println("Stephen equates to Michael?: " + equals);
+
+        String Michael = Player.player();
+        System.out.println(Michael);
+
+//        Player Stephen  = new Player();
+//        Stephen.playerNum = "Player 1: ";
+//        Stephen.variable = "variable: Stephen Curry";
+//        Stephen.name = "Name: Stephen Curry";
+//        Stephen.height = "Height: 6'2";
+//        Stephen.yearsInLeague = "Years in the League: 13 years";
+//
+//        Player Michael = new Player();
+//        Michael.playerNum = "Player 2:";
+//        Michael.variable = "variable: Michael Jordan ";
+//        Michael.name = "Name: Michael Jordan";
+//        Michael.height = "Height: 6'6";
+//        Michael.yearsInLeague = "Years in the League: 15 years";
+
+//        if (Stephen == Michael){
+//            System.out.println("true");
+//        } else if (Stephen != Michael) {
+//            System.out.println("false");
+//        }else {
+//            System.out.println("ERROR!!");
+//        }
+//        boolean equatesTo = Stephen == Michael;
+//        System.out.println(equatesTo);
+//        Stephen = Michael;
+//        boolean valueNow = Stephen == Michael;
+//        System.out.println(valueNow);
+//        if (Stephen == Michael){
+//            System.out.println("true");
+//        } else if (Stephen != Michael) {
+//            System.out.println("false");
+//        }else {
+//            System.out.println("ERROR!!");
+//        }
         return response;
     }
+
 
     public static void main(String[] args) {
         String teamOutput = BballTeam();
