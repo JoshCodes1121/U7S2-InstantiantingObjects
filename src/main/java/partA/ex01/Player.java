@@ -2,7 +2,13 @@ package partA.ex01;
 
 public class Player {
     public String variable, height, name, yearsInLeague, playerNum;
-
+    public Player(String variable, String height, String name, String yearsInLeague,String playerNum){
+        this.variable= variable;
+        this.name = name;
+        this.playerNum = playerNum;
+        this.height= height;
+        this.yearsInLeague =yearsInLeague;
+    }
     public static String player() {
         String response = "";
         /**
