@@ -1,7 +1,5 @@
 package partA.ex01;
 
-import static java.lang.Integer.parseInt;
-
 public class Player {
     public String variable, height, name, yearsInLeague, playerNum;
 
