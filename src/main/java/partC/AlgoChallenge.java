@@ -15,8 +15,20 @@ public class AlgoChallenge {
      */
 
     public static Boolean range3050(int one, int two) {
+        if (one >=30 && one <= 40) {
+            if (two >=30 && two <= 40) {
+                return true;
+            }
 
-        return null;
+        } else if (one >=40 && one <= 50) {
+            if (two >=40 && two <= 50) {
+                return true;
+            }
+
+        } else {
+            return false;
+        }
+        return false;
     }
 
      /* Problem 21
