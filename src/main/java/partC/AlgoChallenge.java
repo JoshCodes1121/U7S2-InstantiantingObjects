@@ -13,31 +13,31 @@ public class AlgoChallenge {
        range3050(30, 41) --> false
        range3050(40, 50) --> true
      */
-
     public static Boolean range3050(int one, int two) {
         if (one >=30 && one <= 40) {
             if (two >=30 && two <= 40) {
                 return true;
             }
 
-        } else if (one >=40 && one <= 50) {
+        } if (one >=40 && one <= 50) {
             if (two >=40 && two <= 50) {
                 return true;
             }
 
-        } else if (one >= 30 && one <= 40) {
-            if (two >= 40 &&  two <= 50) {
+        } if (two >=30 && two <= 40) {
+            if (one >= 40 && one <= 50) {
                 return true;
             }
 
-        } else if (one >= 40 && one <= 50) {
-            if (two >= 30 &&  two <= 40) {
+        } if (two >=40 && two <= 50) {
+            if (one >=30 && one <= 40) {
                 return true;
             }
+
         } else {
             return false;
         }
-        return null;
+        return range3050(one,two);
     }
 
      /* Problem 21
