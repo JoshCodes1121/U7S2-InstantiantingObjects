@@ -24,17 +24,16 @@ public class AlgoChallenge {
                 return true;
             }
 
-        } if (two >=30 && two <= 40) {
-            if (one >= 40 && one <= 50) {
-                return true;
+        }if(one >=30 && one <= 40 ){
+            if (two >=40 && two <= 50){
+                return false;
             }
-
-        } if (two >=40 && two <= 50) {
-            if (one >=30 && one <= 40) {
-                return true;
+        }if(one >=40 && one <= 50){
+            if (two >=30 && two <= 40){
+                return false;
             }
-
-        } else {
+        }
+            else {
             return false;
         }
         return range3050(one,two);
@@ -52,8 +51,11 @@ public class AlgoChallenge {
      */
 
     public static Boolean compareLastDigit(int value1, int value2) {
-
-        return null;
+        if (value1 % 10 == value2 % 10) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 
